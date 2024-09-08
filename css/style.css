@@ -289,6 +289,9 @@ li{
 .appoinment-form h2{
     margin-top: 50px;
 }
+.appoinment-form-h3{
+    display: none;
+}
 .appoinment-content{
     display: flex;
     height: 735px;
@@ -682,6 +685,9 @@ li{
 }
 .appoinment-form h2{
     margin-top: 50px;
+}
+.appoinment-form-h3{
+    display: none;
 }
 .appoinment-content{
     display: flex;
@@ -1176,10 +1182,12 @@ li{
         justify-content: center;
         /* text-align: center; */
         margin: 30px 10px;
-        height: 690px;
+        height: 1190px;
         font-size: 18px;
         gap: 30px;
+        overflow-y: hidden;
     }
+    
     .footer{
         height: 200px;
     }
