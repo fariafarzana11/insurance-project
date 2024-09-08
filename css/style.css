@@ -1,0 +1,403 @@
+
+*{
+    margin: 0;
+}
+body{
+    font-family: poppins;
+}
+.bg-img{
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 720px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100px ;
+    align-items: center;
+    padding: 0px 260px
+}
+.logo{
+    height: 47px;
+    width: 167px;
+    color: white;
+}
+
+nav ul li{
+    list-style: none;
+    color: #bec5c5;
+    font-weight: 600;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+li{
+  list-style: none;  
+  color: white;
+}
+.member{
+    display: flex;
+    gap: 30px;
+}
+
+.become-member{
+    background-color: #23a6f0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+/* .icon{
+    display: flex;
+    gap: 30px;
+}
+.search{
+    height: 24px;
+    margin-top: 10px;
+    gap: 10px;
+}
+.cart{
+    height: 24px;
+    margin-top: 10px;
+    gap: 10px;
+} */
+
+/* hero content style */
+.hero-content{
+    text-align: center;
+    justify-content: center;
+    margin: 120px 0px;
+}
+.hero-content-h2{
+    color: white;
+    letter-spacing: 1.6px;
+    font-size: 35px;
+}
+.hero-content-p{
+    margin-top: 20px;
+    color: white;
+}
+.btn{
+   margin: 40px 0;
+}
+.get-quote-now{
+    background-color: #23a6f0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600; 
+}
+.learn-more{
+    background-color: rgba(216, 216, 215, 0.432);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* customer facilities */
+.customer-container{
+    height: 300px;
+    background-color: rgba(192, 191, 189, 0.075);
+}
+.customer-facilities{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: -90px 390px;
+}
+.customer-facilities-card{
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    height: 361px;
+    width: 230px; 
+    height: 150px;
+    padding: 30px 30px;
+    background-color: #ffffff;
+}
+#customer-facilities-card-blue{
+    background-color: #23a6f0;
+    color: #ffffff;
+}
+ /* customer facilities two style */
+ .facilities-part-two-container{
+    height: 370px;
+ }
+ .facilities-part-two{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 120px 300px;
+    text-align: center;
+ }
+ .facilities-part-img{
+    padding: 20px 0px;
+ }
+
+ /* customer review style */
+ .customer-review-container{
+    height: 872px;
+    background-color: #fafafa;
+ }
+ .customer-review{
+    text-align: center;
+    padding: 120px 0px;
+ }
+ .user-img{
+    width: 149px;
+    height: 149px;
+ }
+ .review-main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    margin: 0 330px;
+ }
+ .review-area{
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    width: 260px; 
+    height: 327px;
+    padding: 30px 40px;
+    background-color: #ffffff;
+ }
+ .review-area-content{
+    margin-top: 20px;
+ }
+ /* company logo style */
+ .company-logo-container{
+    background-color: #fafafa;
+    height: 90px;
+ }
+ .company-logo-content{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin: 0px 440px;
+ }
+ 
+ /* subscribe newsletter section */
+ .subscriber-container{
+    background-color: #fafafa;
+ }
+ .subscribe-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    background-image: linear-gradient(to right,#2c3d88,#d51cc9);
+    width: 1048px;
+    height: 124px;
+    margin: 0px 395px;
+ }
+.subscribe{
+   padding: 30px 70px;
+   color: #ffffff;
+   font-size: 18px;
+}
+.subscribe-email{
+    padding: 40px 10px;  
+}
+#email{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-weight: 600;
+    width: 50%;
+    float: left;
+}
+.subscribe-btn{
+    background-color: #23a6f0;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-weight: 600;
+    width: 20%;
+    float: left;
+}
+/* pricing style */
+.pricing-container{
+    background-color: #fafafa;
+    height: 1080px;
+}
+
+.pricing-content{
+    text-align: center;
+    margin: 0px;
+    padding: 90px 0;
+}
+.price-area{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 40px 378px;
+}
+.fa-check{
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.price-per-month{
+    display: flex;
+    gap: 10px;
+    margin-left: 60px;  
+}
+#price-per-month2{
+    background-color: #252b42;
+    color: #ffffff;
+    height: 600px;
+    margin-top: -35px;
+}
+.price-div{
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px;
+}
+.price-card{
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(255, 255, 255, 0.082);
+    width: 300px; 
+    height: 560px;
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border: 1px solid #23a6f0;
+}
+.try-for-me-btn{
+    background-color: #23a6f0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    width: 250px; 
+}
+/* branches content style */
+.branches-container{
+    height: 700px;
+    background-image: url('../images/background\ \(1\).png');
+    /* background-color: #fafafa; */
+}
+.branches-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: #ffffff;
+    padding: 100px 350px;
+
+}
+.branch-img{
+    margin-top: -50px;
+}
+/*appoinment form */
+.appoinment-form{
+    box-shadow: 0px 1px 1px whitesmoke;
+    width: 500px; 
+    height: 550px;
+    padding: 30px 40px;
+    background-color: #ffffff;
+}
+.appoinment-form h2{
+    margin-top: 50px;
+}
+.appoinment-content{
+    display: flex;
+    height: 735px;
+    margin-left: 560px;
+    margin-top: -320px;
+}
+.form-box{
+    width: 390px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #bec5c5;
+    background-color: #5f5e5e17;
+}
+.dept{
+    font-weight: 600;
+    color: #252b42;
+}
+.time{
+    font-weight: 600;
+    color: #252b42;
+}
+#dept{
+    width: 415px;
+    margin-top: 10px;
+}
+#time{
+    width: 415px;
+}
+.appoinment-btn{
+    width: 415px;
+    padding: 13px 30px;
+    background-color: #23a6f0;
+    border: none;
+    border-radius: 1px solid #23a6f0;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* contact us */
+.contact-container{
+    background-color: #fafafa;
+    height: 220px;
+
+}
+.contact-us{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contact-area{
+ margin: 120px 200px;
+}
+.contact-btn{
+    background-color: #23a6f0;
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 120px 187px;
+}
+/* footer style */
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 40px 150px;
+    height: 190px;
+    font-size: 18px;
+}
+.fa-solid{
+    color: #23a6f0;
+}
+.footer h4{
+    color: #252b42;
+}
+.footer p{
+    padding: 8px 0px;
+    color: #767979;
+}
+
+/* last footer */
+.last-footer{
+     background-color: #fafafa; 
+     height: 60px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     margin: 0px 280px;
+     text-align: center;
+     color: #767979;
+     font-weight: 500;
+}
+.footer-icon{
+    font-size: 25px;
+    font-weight: 500px;
+    padding: 0 20px;
+    color: #23a6f0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 210px;
+}
