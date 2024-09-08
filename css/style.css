@@ -289,7 +289,7 @@ li{
 .appoinment-form h2{
     margin-top: 50px;
 }
-.appoinment-form-h3{
+.appoinment-form h3{
     display: none;
 }
 .appoinment-content{
@@ -1151,7 +1151,11 @@ li{
         background-color: #fafafa;
         height: 300px;
         text-align: center;
+        
     }
+    .contact-container::-webkit-scrollbar {
+        display: none;
+      }
     .contact-us{
         display: grid;
         grid-template-columns: repeat(1,1fr);
