@@ -491,7 +491,7 @@ li{
 .customer-facilities{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin: 12px 50px;
+    margin: 12px 0px;
     gap: 20px;
 
 }
@@ -501,7 +501,7 @@ li{
     height: 361px;
     width: 230px; 
     height: 150px;
-    padding: 30px 30px;
+    padding: 20px 10px;
     background-color: #ffffff;
 }
 #customer-facilities-card-blue{
@@ -532,20 +532,20 @@ li{
     padding: 120px 0px;
  }
  .user-img{
-    width: 149px;
-    height: 149px;
+    width: 70px;
+    height: 60px;
  }
  .review-main{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     text-align: center;
-    margin: 0px 30px;
+    margin: 0px 10px;
     gap: 20px;
  }
  .review-area{
     border-radius: 5px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
-    width: 260px; 
+    width: 190px; 
     height: 327px;
     padding: 30px 40px;
     background-color: #ffffff;
@@ -572,45 +572,47 @@ li{
  /* subscribe newsletter section */
  .subscriber-container{
     background-color: #fafafa;
+    overflow-y: hidden;
  }
  .subscribe-content{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     gap: 20px;
     background-image: linear-gradient(to right,#2c3d88,#d51cc9);
-    width: 648px;
-    height: 124px;
-    margin: 0px 35px;
+    width: 720px;
+    height: 224px;
+    margin: 0px 5px;
  }
 .subscribe{
-   padding: 30px 70px;
+   padding: 30px 10px;
    color: #ffffff;
    font-size: 18px;
 }
 .subscribe-email{
-    padding: 40px 0px;  
+    width: 350px;
+    padding: 40px 80px; 
+    overflow-y: hidden; 
 }
 #email{
     background-color: #ffffff;
     color: white;
     border: none;
     padding: 15px 0px;
-    font-weight: 600;
-    float: left;
 }
 .subscribe-btn{
     background-color: #23a6f0;
     color: white;
     border: none;
-    padding: 15px 20px;
+    padding: 15px 40px;
     font-weight: 500;
-    width: 20%;
-    float: left;
+    width:150px;
+   
 }
 /* pricing style */
 .pricing-container{
     background-color: #fafafa;
-    height: 1080px;
+    height: 100%;
+    overflow-y: hidden;
 }
 
 .pricing-content{
@@ -620,14 +622,15 @@ li{
 }
 .price-area{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin: 40px 378px;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0px 38px;
+    gap: 90px;
 }
 .fa-check{
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 15px;
     border-radius: 15px;
-    padding: 10px 10px;
+    padding: 8px 10px;
     font-size: 15px;
 }
 .price-per-month{
@@ -654,6 +657,7 @@ li{
     padding: 30px 40px;
     background-color: #ffffff;
     border: 1px solid #23a6f0;
+    margin: 0px 20px;
 }
 .try-for-me-btn{
     background-color: #23a6f0;
@@ -666,15 +670,17 @@ li{
 }
 /* branches content style */
 .branches-container{
-    height: 700px;
+    margin-top: 20px;
+    height: 400px;
     background-image: url('../images/background\ \(1\).png');
     /* background-color: #fafafa; */
+    overflow-y: hidden;
 }
 .branches-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     color: #ffffff;
-    padding: 100px 350px;
+    padding: 100px 10px;
 
 }
 .branch-img{
@@ -694,8 +700,8 @@ li{
 .appoinment-content{
     display: flex;
     height: 735px;
-    margin-left: 560px;
-    margin-top: -320px;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 .form-box{
     width: 390px;
@@ -725,39 +731,45 @@ li{
     background-color: #23a6f0;
     border: none;
     border-radius: 1px solid #23a6f0;
-    font-weight: 600;
+    font-weight: 500;
     color: #ffffff;
+    text-align: center;
 }
 
 /* contact us */
 .contact-container{
     background-color: #fafafa;
-    height: 220px;
-
+    height: 196px;
 }
 .contact-us{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
 .contact-area{
- margin: 120px 200px;
+ margin: 0px 20px;
 }
 .contact-btn{
     background-color: #23a6f0;
     color: white;
     border: none;
-    padding: 18px 40px;
+    padding: 10px 40px;
     border-radius: 5px;
     font-weight: 700;
     font-size: 16px;
-    margin: 120px 187px;
+    margin-top: 20px;
+    margin-right: -20px;
 }
 /* footer style */
+.footer-container{
+    height: 1100px;
+}
 .footer-content{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
-    margin: 40px 150px;
-    height: 190px;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    /* text-align: center; */
+    margin: 20px 10px;
+    height: 690px;
     font-size: 18px;
 }
 .fa-solid{
@@ -774,13 +786,12 @@ li{
 /* last footer */
 .last-footer{
      background-color: #fafafa; 
-     height: 60px;
+     height: 90px;
      display: grid;
      grid-template-columns: repeat(2,1fr);
-     margin: 0px 280px;
+     margin: 0px 10px;
      text-align: center;
      color: #767979;
-     font-weight: 500;
 }
 .footer-icon{
     font-size: 25px;
@@ -789,7 +800,7 @@ li{
     color: #23a6f0;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin: 0 210px;
+    margin: 16px 9px;
 }
 
 }
